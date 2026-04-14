@@ -115,6 +115,12 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
+          type: 'docSidebar',
+          sidebarId: 'communitySidebar',
+          position: 'left',
+          label: 'Community',
+        },
+        {
           type: 'docsVersionDropdown',
           position: 'left',
           versions: {
@@ -146,12 +152,6 @@ const config: Config = {
               label: '0.11',
             },
           ],
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'communitySidebar',
-          position: 'right',
-          label: 'Community',
         },
         {
           href: 'https://github.com/kserve/kserve',
