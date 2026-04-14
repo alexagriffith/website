@@ -33,7 +33,7 @@ function HomepageHeader() {
             Get Started
           </Link>
           <Link
-            className="button button--outline button--lg button--secondary"
+            className={clsx("button button--outline button--lg button--secondary", styles.installButton)}
             to="/docs/admin-guide/overview#installation">
             Install KServe
           </Link>

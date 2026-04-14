@@ -145,6 +145,18 @@
   backdrop-filter: blur(15px);
 }
 
+.installButton {
+  background: #3371e3 !important;
+  border: none !important;
+  color: white !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4) !important;
+}
+
+.installButton:hover {
+  background: #2561dc !important;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5) !important;
+}
+
 .heroBanner h1 {
   font-size: 3.5rem;
   font-weight: 700;
